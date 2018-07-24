@@ -1,0 +1,47 @@
+﻿body {
+    background-image:url(Image/HomeCafeBackground.jpg);
+}
+
+.menu ul li {
+            display: inline-table; margin-left: 100px;
+        }
+        .menu ul{
+            padding: 0;
+        }
+        .menu ul li .subMenu{
+            display: none; width: 150px; position: absolute;
+        }
+        .menu ul li:hover > .subMenu{
+            display: block;
+        }
+        .menu ul li .subMenu li {
+            margin: 0; padding-top: 10px;
+        }
+        .menu ul li a{
+            text-decoration: none; color: white;
+            font-size: larger;
+            padding-bottom: 17px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .menu ul li a:hover{
+        }
+
+header {
+    font-weight:bold;
+    position:fixed;
+    width:100%;
+    text-align:center;
+}
+
+footer {
+    font-weight:bold;
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    text-align:center;
+}
+
+p {
+    text-align:center;
+}
